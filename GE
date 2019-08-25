@@ -1,0 +1,20 @@
+import java.util.Scanner;
+
+public class KiloXchange {
+
+	@SuppressWarnings("resource")
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+
+		// final double CONVERSION_FACTOR = weight * 2.2;
+
+		System.out.print("Please enter a weight:");
+		double weight = scanner.nextInt();
+
+		System.out.println("You entered:" + weight);
+
+		// how to add lbs after 'you entered #lbs'//
+		// how to take the weight entered and apply the converison factor//
+	}
+
+}
